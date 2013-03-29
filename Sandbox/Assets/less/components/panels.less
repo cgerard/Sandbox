@@ -1,0 +1,74 @@
+﻿// Panels.less
+// -----------
+
+// Base styles
+// -----
+.panel {
+
+	background: @panelBackground;
+	border: 1px solid @panelBorder;
+	margin: 0 0 10px;
+
+	.border-radius(4px);
+	
+	.panel-header {
+		background: @panelHeaderBackground;
+		border-bottom: 1px solid @panelHeaderBorder;
+		color: @panelHeaderText;
+		padding: 7px;
+		font-size: 1.3em;
+		
+		.border-radius(4px 4px 0 0);
+
+		a {
+			color: @panelHeaderText;	
+		}
+	}
+
+	.panel-content {
+		background: @panelContentBackground;
+		color: @panelContentText;
+		margin: 0;
+		padding: 7px;
+
+		.background-clip(content-box);
+	}
+}
+
+// Alternates
+// -----
+
+.panel-primary {
+
+	background: @panelPrimaryBackground;
+	border: 1px solid @panelPrimaryBorder;
+
+	.panel-header {
+		background: @panelPrimaryHeaderBackground;
+		border-bottom: 1px solid @panelPrimaryHeaderBorder;
+		color: @panelPrimaryHeaderText;
+	}
+
+	.panel-content {
+		background-color: @panelPrimaryContentBackground;
+		color: @panelPrimaryContentText;
+	}
+}
+
+
+.panel-inverse {
+
+	background: @panelInverseBackground;
+	border: 1px solid @panelInverseBorder;
+
+	.panel-header {
+		background: @panelInverseHeaderBackground;
+		border-bottom: 1px solid @panelInverseHeaderBorder;
+		color: @panelInverseHeaderText;
+	}
+
+	.panel-content {
+		background: @panelInverseContentBackground;
+		color: @panelInverseContentText;
+	}
+}

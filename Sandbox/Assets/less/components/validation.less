@@ -1,0 +1,21 @@
+
+// Unobstrusive Validation
+// -----------------------
+
+input, textarea, select {
+	&.valid {
+		border-color: @successBorder;
+	}
+
+	&.input-validation-error {
+		border-color: @errorBorder;
+	}
+}
+
+.field-validation-error {
+	color: @errorText;
+}
+
+.field-validation-valid {
+	color: @successText;
+}

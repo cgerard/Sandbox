@@ -1,0 +1,174 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('icomoon.eot');
+	src:url('icomoon.eot?#iefix') format('embedded-opentype'),
+		url('icomoon.woff') format('woff'),
+		url('icomoon.ttf') format('truetype'),
+		url('icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-zoom, .icon-youtube, .icon-wrong, .icon-warning, .icon-visa, .icon-view, .icon-uservoice, .icon-twitter, .icon-tumblr, .icon-time, .icon-take, .icon-stick, .icon-smile, .icon-scooter, .icon-right, .icon-restaurant-ticket, .icon-pinterest, .icon-phone, .icon-padlock, .icon-more-adress, .icon-more, .icon-money, .icon-modified, .icon-mobil-version, .icon-message, .icon-menu, .icon-mastercard, .icon-less, .icon-information, .icon-home, .icon-help, .icon-google, .icon-geolocalisation, .icon-factures, .icon-facebook, .icon-delete, .icon-covered, .icon-commentary, .icon-checkbook, .icon-cgv, .icon-card, .icon-basket, .icon-arrow, .icon-adress, .icon-account {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-zoom:before {
+	content: "\21";
+}
+.icon-youtube:before {
+	content: "\22";
+}
+.icon-wrong:before {
+	content: "\23";
+}
+.icon-warning:before {
+	content: "\24";
+}
+.icon-visa:before {
+	content: "\25";
+}
+.icon-view:before {
+	content: "\26";
+}
+.icon-uservoice:before {
+	content: "\27";
+}
+.icon-twitter:before {
+	content: "\28";
+}
+.icon-tumblr:before {
+	content: "\29";
+}
+.icon-time:before {
+	content: "\2a";
+}
+.icon-take:before {
+	content: "\2b";
+}
+.icon-stick:before {
+	content: "\2c";
+}
+.icon-smile:before {
+	content: "\2d";
+}
+.icon-scooter:before {
+	content: "\2e";
+}
+.icon-right:before {
+	content: "\2f";
+}
+.icon-restaurant-ticket:before {
+	content: "\30";
+}
+.icon-pinterest:before {
+	content: "\31";
+}
+.icon-phone:before {
+	content: "\32";
+}
+.icon-padlock:before {
+	content: "\33";
+}
+.icon-more-adress:before {
+	content: "\34";
+}
+.icon-more:before {
+	content: "\35";
+}
+.icon-money:before {
+	content: "\36";
+}
+.icon-modified:before {
+	content: "\37";
+}
+.icon-mobil-version:before {
+	content: "\38";
+}
+.icon-message:before {
+	content: "\39";
+}
+.icon-menu:before {
+	content: "\3a";
+}
+.icon-mastercard:before {
+	content: "\3b";
+}
+.icon-less:before {
+	content: "\3c";
+}
+.icon-information:before {
+	content: "\3d";
+}
+.icon-home:before {
+	content: "\3e";
+}
+.icon-help:before {
+	content: "\3f";
+}
+.icon-google:before {
+	content: "\40";
+}
+.icon-geolocalisation:before {
+	content: "\41";
+}
+.icon-factures:before {
+	content: "\42";
+}
+.icon-facebook:before {
+	content: "\43";
+}
+.icon-delete:before {
+	content: "\44";
+}
+.icon-covered:before {
+	content: "\45";
+}
+.icon-commentary:before {
+	content: "\46";
+}
+.icon-checkbook:before {
+	content: "\47";
+}
+.icon-cgv:before {
+	content: "\48";
+}
+.icon-card:before {
+	content: "\49";
+}
+.icon-basket:before {
+	content: "\4a";
+}
+.icon-arrow:before {
+	content: "\4b";
+}
+.icon-adress:before {
+	content: "\4c";
+}
+.icon-account:before {
+	content: "\4d";
+}
